@@ -1,0 +1,117 @@
+/* styling of header.php */
+.header
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-radius: 10px;
+    height: 100px;
+    opacity: 1;
+    background-color: #f7f7f7;
+}
+
+.title
+{
+    position: absolute;
+    left: 2px;
+    bottom: 1px;
+}
+
+.btns
+{
+    position: absolute;
+    right: 30px;
+    bottom: 1px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding-right: 2rem;
+    padding-bottom: 5px;  
+}
+
+.inputButtons
+{
+    padding: 5px 5px 5px 5px;
+    font-size: large;
+    margin-left: 1.5rem;
+    background-color: #ece9e9;
+    box-shadow: 5px 5px 5px rgba(87, 87, 87, 0.5);
+    cursor: pointer; 
+}
+
+/* styling of footer.php */
+.footer
+{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-radius: 10px;
+    height: 100px;
+    opacity: 1;
+    background-color: #f7f7f7;
+}
+
+/* styling of product-card.php */
+.product-card
+{
+    display: inline-block;
+    border-style: solid;
+    width: 260px;
+    height: 200px;
+    padding: 30px 1px 15px 0px;
+    margin: 20px 30px 20px 25px ;
+    text-align: center;
+    font-size: large;
+}
+
+.delete-checkbox
+{
+    margin-right: 12rem;
+    padding-bottom: 5rem;
+}
+
+/* styling of add-product.php */
+.content
+{
+    margin-top: 10rem;
+    padding-bottom: 150px;
+    padding-left: 100px;       
+}
+
+#product_form
+{
+    margin-top: 10%;
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: larger;
+}
+
+label
+{
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: left;
+}
+
+.form-inputs 
+{
+    float: left;
+    margin-bottom: 2rem;
+}
+
+span 
+{
+    float: left;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+#appended
+{
+    position: absolute;
+    float:left;
+    display:block;
+    left: 2rem;
+    bottom: 25%;
+}
+

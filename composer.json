@@ -1,0 +1,14 @@
+{
+    "name": "carnival/sandiweb_testTask",
+    "description": "Scandiweb Junior Developer Test Task",
+    "type": "project",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "App",
+            "src\\" : "src"
+        }
+    }
+}
